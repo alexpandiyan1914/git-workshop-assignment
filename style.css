@@ -1,0 +1,47 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Heading styling */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Active (when clicked) */
+button:active {
+    background: #1f6391;
+    transform: scale(0.95);
+}
